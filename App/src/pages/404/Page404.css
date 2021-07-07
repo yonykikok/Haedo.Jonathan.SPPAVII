@@ -1,0 +1,15 @@
+.divPage404Error img {
+  width: 80vw;
+}
+.divPage404Error {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divButtonBack {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}

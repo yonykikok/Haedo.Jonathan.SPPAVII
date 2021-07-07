@@ -1,0 +1,154 @@
+/* :root {
+  --principal: #6495ed;
+  --secundario: #faf0e6; 
+  --asentuacion: #faf0e6; 
+} */
+* {
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(104, 182, 156);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2rem;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.btnEliminar {
+  background-color: red;
+}
+
+.btnEliminar:hover {
+  background-color: rgb(255, 95, 95);
+  box-shadow: 0 0 5px 1px red;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+.btn {
+  border: none;
+  border-radius: 10px;
+  max-width: 150px;
+  margin: 5px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 0 5px 1px black;
+}
+
+.divBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+}
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px 1px black;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+.primary {
+  background-color: #007bff !important;
+}
+
+.secondary {
+  background-color: #9c9c9c !important;
+}
+
+.success {
+  background-color: #28a745 !important;
+}
+
+.danger {
+  background-color: #dc3545 !important;
+}
+
+.warning {
+  background-color: #ffc107 !important;
+}
+
+.info {
+  background-color: #17a2b8 !important;
+}
+
+.shadowPrimary:hover {
+  background-color: #469ffd !important;
+  box-shadow: 0 0 5px 1px #007bff !important;
+}
+
+.shadowSecondary:hover {
+  background-color: #c2c2c2 !important;
+  box-shadow: 0 0 5px 1px #6c757d !important;
+}
+
+.shadowSuccess:hover {
+  background-color: #6aaa79 !important;
+  box-shadow: 0 0 5px 1px #28a745 !important;
+}
+
+.shadowDanger:hover {
+  background-color: #db828b !important;
+  box-shadow: 0 0 5px 1px #dc3545 !important;
+}
+
+.shadowWarning:hover {
+  background-color: #fae299 !important;
+  box-shadow: 0 0 5px 1px #ffc107 !important;
+}
+
+.shadowInfo:hover {
+  background-color: #74b1bb !important;
+  box-shadow: 0 0 5px 1px#17a2b8 !important;
+}

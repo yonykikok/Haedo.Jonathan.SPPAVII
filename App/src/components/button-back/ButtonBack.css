@@ -1,0 +1,12 @@
+.button{
+    text-decoration: none;
+    box-shadow: 0 0 2px 1px black;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+}
+.button:hover{
+    background-color: rgb(195, 195, 238);
+}
+.button:active{
+    background-color: rgb(120, 120, 248);
+}

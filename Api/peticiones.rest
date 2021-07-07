@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/cocineros
+
+###
+POST http://localhost:3000/api/cocineros
+Content-Type: application/json
+
+{
+	"nombre":"Jonathan",
+	"especialidad":"Pizzas",
+	"edad":28,
+	"favorito":true
+}

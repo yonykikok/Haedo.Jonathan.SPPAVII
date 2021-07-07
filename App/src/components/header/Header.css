@@ -1,0 +1,66 @@
+.headerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  background-color: lightblue;
+  box-shadow: 0 0 10px 0px black;
+}
+.headerContainer img {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+}
+.headerContainer button {
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.divPanelUsuario {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.divPanelUsuario label {
+  display: flex;
+  justify-content: center;
+  transform: translate(-70px);
+  position: absolute;
+  min-height: 20px;
+  min-width: 100px;
+  user-select: none;
+  background-color: lightblue;
+  padding: 0.5rem 1rem;
+}
+.divPanelUsuario label:active {
+  transform:  translate(-70px) scale(0.97);
+}
+.divPanelUsuario label:hover {
+  background-color: rgb(135, 214, 240);
+}
+.cerrarSesion {
+  transform: translate(-70px, 35px) !important;
+}
+.cambiarPassword {
+  transform: translate(-70px, 70px) !important;
+}
+
+.cerrarSesion:active {
+  transform: translate(-70px, 35px) scale(0.97) !important;
+}
+.cambiarPassword:active {
+  transform: translate(-70px, 70px) scale(0.97) !important;
+}
+.btnIngresar{
+  position: absolute;
+  right: 0;
+}
+.oculto{
+  visibility: hidden;
+}

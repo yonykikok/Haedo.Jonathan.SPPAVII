@@ -1,0 +1,24 @@
+.formularioContainer {
+  margin-top: 5em;
+  text-align: center;
+}
+.formularioContainer input[type="text"] {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.formularioContainer .divFavorito label {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.formularioContainer .divFavorito {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formularioContainer input[type="radio"] {
+  background-color: white !important;
+  margin: 1rem;
+}
