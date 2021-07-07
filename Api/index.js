@@ -12,7 +12,7 @@ const usersRouter = require('./routes/usersRouter');
 const espera = (req, res, next) => {
     setTimeout(() => {
         return next();
-    }, 100);
+    }, 1000);
 }
 
 app.use(logger);
